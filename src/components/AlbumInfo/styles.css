@@ -1,0 +1,42 @@
+.albumInfoContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.albumInfoContainer__image {
+  flex: 1;
+}
+
+.albumInfoContainer__info {
+  flex: 11;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.albumInfoContainer__info--albumName {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.albumInfoContainer__info--artistName {
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+.albumInfoContainer__info--price {
+  font-weight: bold;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.albumInfoContainer__info--trackCount {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}

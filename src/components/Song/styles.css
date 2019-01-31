@@ -1,0 +1,42 @@
+.songContainer {
+  display: flex;
+  
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.songContainer__image {
+  flex: 1;
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
+.songContainer__image--image {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.songContainer__info {
+  display: flex;
+  flex: 11;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 60px;
+}
+
+.songContainer__info--songTitle {
+  font-weight: bold;
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.songContainer__info--songArtist {
+  font-weight: 400;
+}

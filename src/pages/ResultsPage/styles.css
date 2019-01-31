@@ -1,0 +1,10 @@
+.resultsPageContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.resultsPageContainer__artistsContainer {
+  display: flex;
+  overflow-x: auto;
+}
